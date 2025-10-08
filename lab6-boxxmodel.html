@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Model Lab</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .box {
+      border: 5px solid blue;
+      background-color: lightgray;
+      padding: 20px;
+      margin: 20px auto;
+      width: 250px;
+      height: 120px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Box Model Example</h1>
+
+  <div class="box">
+    <p>This is Box 1. It shows padding, border, and margin.</p>
+  </div>
+
+  <div class="box">
+    <p>This is Box 2. Notice the space between boxes from the margin.</p>
+  </div>
+</body>
+</html>
